@@ -7,8 +7,9 @@ moreBtn.onclick = e =>{
         moreBtn.innerHTML ="Mostrar menos";
     }else{
         showDetail.classList.remove('show');
-        moreBtn.innerHTML ="Mostrar mais";
+        moreBtn.innerHTML = "Mostrar mais";
         
     }
 }
+
 
