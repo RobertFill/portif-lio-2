@@ -1,4 +1,4 @@
-const pageObserver = new IntersectionObserver((view) =>{
+const pageObserver = new IntersectionObserver((view) =>{ /* pages target */
     view.forEach((entry) =>{
         if(entry.isIntersecting){
             entry.target.classList.add('hiden-show');
