@@ -511,6 +511,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     width: 18rem;
     height: 23rem;
     margin: 30px 0;
@@ -524,6 +525,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
 }
 
 .card div span {
+    
     transform: rotate(-52deg);
     font-size: 30px;
 }
@@ -562,6 +564,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
 }
 
 .project-1>img{
+    max-width: 87%;
     width: 260px;
     height: 145px;
     border-radius: 3px;
@@ -569,9 +572,11 @@ section#projects .card:nth-child(3){ /* hiden projects */
     object-fit: cover;
 }
 .project-1 p{
+    
     font-size: 13px;
     padding: 6px 20px;
     color: var(--text-color);
+    text-transform: none;
 }
 .project-1 p:nth-child(5){
     position: relative;
@@ -619,6 +624,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
 }
 
 .project-2>img{
+    max-width: 87%;
     width: 260px;
     height: 145px;
     border-radius: 3px;
@@ -629,6 +635,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
     font-size: 13px;
     padding: 6px 20px;
     color: var(--text-color);
+    text-transform: none;
 }
 .project-2 p:nth-child(5){
     position: relative;
@@ -639,6 +646,7 @@ section#projects .card:nth-child(3){ /* hiden projects */
     color: var(--theme-orange-color);
 }
 .project-2 a img {
+    max-width: 100%;
     width: 20px;
     height: 20px;
     background-color: var(--text-color);
@@ -646,6 +654,67 @@ section#projects .card:nth-child(3){ /* hiden projects */
     margin-top: 15px;  
 }
 .project-2 a:hover{
+    scale: 1.3;
+}
+
+.project-3{
+    display: flex;
+    flex-direction: column;
+   
+}
+.project-3 h4{
+    position: relative;
+    right: 30px;
+    font-size: 17px;
+    color: var(--text-color);
+}
+.project-3 h4,p{ 
+    margin-bottom: 8px;
+    
+}
+.project-3 h4>span{
+    color: var(--theme-orange-color);
+    position: relative;
+    right: 21px;  
+}
+.project-3 h4>span:nth-child(2){
+    color: var(--guthub-green-color);
+}
+.project-3 h4>span:nth-child(3){
+    color: var(--linkedin-blue-color)
+}
+
+.project-3>img{
+    max-width: 87%;
+    width: 260px;
+    height: 145px;
+    border-radius: 3px;
+    border-left: 5px solid var(--theme-orange-color);
+    object-fit: cover;
+}
+.project-3 p{
+    font-size: 13px;
+    padding: 6px 20px;
+    color: var(--text-color);
+    text-transform: none;
+}
+.project-3 p:nth-child(5){
+    position: relative;
+    top: 19px;
+    font-weight: 700;
+    font-size: 10px;
+
+    color: var(--theme-orange-color);
+}
+.project-3 a img {
+    max-width: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color);
+    border-radius: 15px;
+    margin-top: 15px;  
+}
+.project-3 a:hover{
     scale: 1.3;
 }
 #projects button{
@@ -670,8 +739,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 7rem;
+    height: 6rem;
+    padding-top: 23px;
     font-size: 13px;
+    line-height: 5px;
     background-color: var(--bg-color);
     color: aliceblue;
 }
@@ -1051,7 +1122,7 @@ footer div:nth-child(2) {
     }
 
     section#home {
-
+       
         border-bottom: 15px solid #d32323;
         border-radius: 0 0 0 500rem;
     }
@@ -1214,6 +1285,9 @@ footer div:nth-child(2) {
         display: flex;
         align-items: center;
         margin: auto;
+        
+        
+        font-size: 12px;
 
     }
 
@@ -1257,6 +1331,73 @@ footer div:nth-child(2) {
     }
     section#projects h1{
         font-size: 28px;
+    }
+    .project-1 h4{
+        padding-top: 5px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+    .project-1 h4 >span{
+        right: 3px;
+        margin-left: 3px;
+    }
+    .project-1 p{
+    
+        font-size: 11px;
+    }
+    .project-1 p:nth-child(5){
+        top: 4px;
+        font-size: 9px;
+    }
+    .project-2 h4 >span{
+        margin-left: 3px;
+        right: 0px;
+        left: 3px;
+    }
+    .project-2 h4{
+        padding-top: 6px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+    .project-2 p{
+    
+        font-size: 11px;
+    }
+
+    .project-2 p:nth-child(5){
+        top: 4px;
+        font-size: 9px;
+    }
+    /**/
+    .project-3 h4 >span{
+        margin-left: 3px;
+        right: 0px;
+        left: 3px;
+    }
+    .project-3 h4{
+        padding: 5px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+    .project-3 p{
+    
+        font-size: 11px;
+    }
+
+    .project-3 p:nth-child(5){
+        top: 4px;
+        font-size: 9px;
+    }
+    .project-3 img{
+        height: 117px;
+    }
+
+    #projects button{
+        padding: 12px;
+        width: 400px;
+        font-size: 12px;
     }
 
     footer {
