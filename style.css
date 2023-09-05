@@ -496,18 +496,22 @@ section#projects .card {
     display: flex;
     justify-content: space-around;
     padding: 1.6rem 10rem;
-    
+
 
 
 }
-section#projects .card:nth-child(3){ /* hiden projects */
+
+section#projects .card:nth-child(3) {
+    /* hiden projects */
     display: none;
 }
-.show#projects .card:nth-child(3){
+
+.show#projects .card:nth-child(3) {
     display: flex;
 }
 
-.card div { /* all projects */
+.card div {
+    /* all projects */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,14 +522,15 @@ section#projects .card:nth-child(3){ /* hiden projects */
     border-radius: 10px;
     text-transform: capitalize;
     color: var(--theme-orange-color);
-    background-color: var(--bg-color);   
+    background-color: var(--bg-color);
 }
-.card div:hover{
+
+.card div:hover {
     box-shadow: 0 0 30px 3px var(--guthub-green-color);
 }
 
 .card div span {
-    
+
     transform: rotate(-52deg);
     font-size: 30px;
 }
@@ -536,34 +541,40 @@ section#projects .card:nth-child(3){ /* hiden projects */
 
 
 /* projects */
-.project-1{
+.project-1 {
     display: flex;
     flex-direction: column;
-   
+
 }
-.project-1 h4{
+
+.project-1 h4 {
     position: relative;
     right: 30px;
     font-size: 17px;
     color: var(--text-color);
 }
-.project-1 h4,p{ 
+
+.project-1 h4,
+p {
     margin-bottom: 8px;
-    
+
 }
-.project-1 h4>span{
+
+.project-1 h4>span {
     color: var(--theme-orange-color);
     position: relative;
-    right: 25px;  
+    right: 25px;
 }
-.project-1 h4>span:nth-child(2){
+
+.project-1 h4>span:nth-child(2) {
     color: var(--guthub-green-color);
 }
-.project-1 h4>span:nth-child(3){
+
+.project-1 h4>span:nth-child(3) {
     color: var(--linkedin-blue-color)
 }
 
-.project-1>img{
+.project-1>img {
     max-width: 87%;
     width: 260px;
     height: 145px;
@@ -571,14 +582,16 @@ section#projects .card:nth-child(3){ /* hiden projects */
     border-left: 5px solid var(--theme-orange-color);
     object-fit: cover;
 }
-.project-1 p{
-    
+
+.project-1 p {
+
     font-size: 13px;
     padding: 6px 20px;
     color: var(--text-color);
     text-transform: none;
 }
-.project-1 p:nth-child(5){
+
+.project-1 p:nth-child(5) {
     position: relative;
     top: 10px;
     font-weight: 700;
@@ -586,44 +599,53 @@ section#projects .card:nth-child(3){ /* hiden projects */
 
     color: var(--theme-orange-color);
 }
+
 .project-1 a img {
     width: 20px;
     height: 20px;
     background-color: var(--text-color);
     border-radius: 15px;
-    margin-top: 15px;  
+    margin-top: 15px;
 }
-.project-1 a:hover{
+
+.project-1 a:hover {
     scale: 1.3;
 }
-.project-2{
+
+.project-2 {
     display: flex;
     flex-direction: column;
-   
+
 }
-.project-2 h4{
+
+.project-2 h4 {
     position: relative;
     right: 30px;
     font-size: 17px;
     color: var(--text-color);
 }
-.project-2 h4,p{ 
+
+.project-2 h4,
+p {
     margin-bottom: 8px;
-    
+
 }
-.project-2 h4>span{
+
+.project-2 h4>span {
     color: var(--theme-orange-color);
     position: relative;
-    right: 21px;  
+    right: 21px;
 }
-.project-2 h4>span:nth-child(2){
+
+.project-2 h4>span:nth-child(2) {
     color: var(--guthub-green-color);
 }
-.project-2 h4>span:nth-child(3){
+
+.project-2 h4>span:nth-child(3) {
     color: var(--linkedin-blue-color)
 }
 
-.project-2>img{
+.project-2>img {
     max-width: 87%;
     width: 260px;
     height: 145px;
@@ -631,60 +653,70 @@ section#projects .card:nth-child(3){ /* hiden projects */
     border-left: 5px solid var(--theme-orange-color);
     object-fit: cover;
 }
-.project-2 p{
+
+.project-2 p {
     font-size: 13px;
     padding: 6px 20px;
     color: var(--text-color);
     text-transform: none;
 }
-.project-2 p:nth-child(5){
+
+.project-2 p:nth-child(5) {
     position: relative;
-    top: 19px;
+    top: 11px;
     font-weight: 700;
     font-size: 10px;
 
     color: var(--theme-orange-color);
 }
+
 .project-2 a img {
     max-width: 100%;
     width: 20px;
     height: 20px;
     background-color: var(--text-color);
     border-radius: 15px;
-    margin-top: 15px;  
+    margin-top: 15px;
 }
-.project-2 a:hover{
+
+.project-2 a:hover {
     scale: 1.3;
 }
 
-.project-3{
+.project-3 {
     display: flex;
     flex-direction: column;
-   
+
 }
-.project-3 h4{
+
+.project-3 h4 {
     position: relative;
     right: 30px;
     font-size: 17px;
     color: var(--text-color);
 }
-.project-3 h4,p{ 
+
+.project-3 h4,
+p {
     margin-bottom: 8px;
-    
+
 }
-.project-3 h4>span{
+
+.project-3 h4>span {
     color: var(--theme-orange-color);
     position: relative;
-    right: 21px;  
+    right: 21px;
 }
-.project-3 h4>span:nth-child(2){
+
+.project-3 h4>span:nth-child(2) {
     color: var(--guthub-green-color);
 }
-.project-3 h4>span:nth-child(3){
+
+.project-3 h4>span:nth-child(3) {
     color: var(--linkedin-blue-color)
 }
 
-.project-3>img{
+.project-3>img {
     max-width: 87%;
     width: 260px;
     height: 145px;
@@ -692,13 +724,15 @@ section#projects .card:nth-child(3){ /* hiden projects */
     border-left: 5px solid var(--theme-orange-color);
     object-fit: cover;
 }
-.project-3 p{
+
+.project-3 p {
     font-size: 13px;
     padding: 6px 20px;
     color: var(--text-color);
     text-transform: none;
 }
-.project-3 p:nth-child(5){
+
+.project-3 p:nth-child(5) {
     position: relative;
     top: 19px;
     font-weight: 700;
@@ -706,18 +740,163 @@ section#projects .card:nth-child(3){ /* hiden projects */
 
     color: var(--theme-orange-color);
 }
+
 .project-3 a img {
     max-width: 100%;
     width: 20px;
     height: 20px;
     background-color: var(--text-color);
     border-radius: 15px;
-    margin-top: 15px;  
+    margin-top: 15px;
 }
-.project-3 a:hover{
+
+.project-3 a:hover {
     scale: 1.3;
 }
-#projects button{
+
+.project-4 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-4 h4 {
+    position: relative;
+    right: 30px;
+    font-size: 17px;
+    color: var(--text-color);
+}
+
+.project-4 h4,
+p {
+    margin-bottom: 8px;
+
+}
+
+.project-4 h4>span {
+    color: var(--theme-orange-color);
+    position: relative;
+    right: 21px;
+}
+
+.project-4 h4>span:nth-child(2) {
+    color: var(--guthub-green-color);
+}
+
+.project-4 h4>span:nth-child(3) {
+    color: var(--linkedin-blue-color)
+}
+
+.project-4>img {
+    max-width: 87%;
+    width: 260px;
+    height: 145px;
+    border-radius: 3px;
+    border-left: 5px solid var(--theme-orange-color);
+    object-fit: cover;
+}
+
+.project-4 p {
+    font-size: 13px;
+    padding: 6px 20px;
+    color: var(--text-color);
+    text-transform: none;
+}
+
+.project-4 p:nth-child(5) {
+    position: relative;
+    top: 19px;
+    font-weight: 700;
+    font-size: 10px;
+
+    color: var(--theme-orange-color);
+}
+
+.project-4 a img {
+    max-width: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.project-4 a:hover {
+    scale: 1.3;
+}
+
+.project-5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project-5 h4 {
+    position: relative;
+    right: 30px;
+    font-size: 17px;
+    color: var(--text-color);
+}
+
+.project-5 h4,
+p {
+    margin-bottom: 8px;
+
+}
+
+.project-5 h4>span {
+    color: var(--theme-orange-color);
+    position: relative;
+    right: 21px;
+}
+
+.project-5 h4>span:nth-child(2) {
+    color: var(--guthub-green-color);
+}
+
+.project-5 h4>span:nth-child(3) {
+    color: var(--linkedin-blue-color)
+}
+
+.project-5>img {
+    max-width: 87%;
+    width: 260px;
+    height: 145px;
+    border-radius: 3px;
+    border-left: 5px solid var(--theme-orange-color);
+    object-fit: cover;
+}
+
+.project-5 p {
+    font-size: 13px;
+    padding: 6px 20px;
+    color: var(--text-color);
+    text-transform: none;
+}
+
+.project-5 p:nth-child(5) {
+    position: relative;
+    top: 19px;
+    font-weight: 700;
+    font-size: 10px;
+
+    color: var(--theme-orange-color);
+}
+
+.project-5 a img {
+    max-width: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.project-5 a:hover {
+    scale: 1.3;
+}
+
+#projects button {
     padding: .7rem 3rem;
     border: none;
     border-radius: 25px;
@@ -730,7 +909,8 @@ section#projects .card:nth-child(3){ /* hiden projects */
 
     transition: ease-in-out .4s;
 }
-#projects button:hover{
+
+#projects button:hover {
     background-color: rgb(168, 200, 214);
     color: var(--bg-color);
 }
@@ -856,7 +1036,7 @@ footer div:nth-child(2) {
     filter: blur(15px);
 }
 
-.hiden-show{
+.hiden-show {
     /*animation page entrys*/
     opacity: 1;
     transition: all 1.1s;
@@ -1079,10 +1259,12 @@ footer div:nth-child(2) {
 
 
     }
-    section#projects{
+
+    section#projects {
         margin-top: 9rem;
         margin-bottom: 1rem;
     }
+
     section#projects .card {
         flex-wrap: wrap;
         justify-content: center;
@@ -1122,7 +1304,7 @@ footer div:nth-child(2) {
     }
 
     section#home {
-       
+
         border-bottom: 15px solid #d32323;
         border-radius: 0 0 0 500rem;
     }
@@ -1223,9 +1405,11 @@ footer div:nth-child(2) {
     #box {
         height: 90vh;
     }
+
     .content-profile {
         line-height: 33px;
     }
+
     .content-profile h1 {
         text-align: center;
         font-size: 27px;
@@ -1268,6 +1452,7 @@ footer div:nth-child(2) {
     #home button a {
         font-size: 15px;
     }
+
     .more-aboutMy h1 {
         font-size: 27px;
     }
@@ -1275,9 +1460,12 @@ footer div:nth-child(2) {
     .more-aboutMy p {
         width: 350px;
         font-size: 11px;
-        
+
     }
-    .more-aboutMy p:nth-child(4), .more-aboutMy p:nth-child(5), .more-aboutMy p:nth-child(6) {
+
+    .more-aboutMy p:nth-child(4),
+    .more-aboutMy p:nth-child(5),
+    .more-aboutMy p:nth-child(6) {
         font-size: 11px;
     }
 
@@ -1285,8 +1473,8 @@ footer div:nth-child(2) {
         display: flex;
         align-items: center;
         margin: auto;
-        
-        
+
+
         font-size: 12px;
 
     }
@@ -1310,7 +1498,7 @@ footer div:nth-child(2) {
         font-size: 11px;
 
     }
-    
+
     .programs {
 
         grid-template-columns: 90px 90px 90px;
@@ -1321,99 +1509,112 @@ footer div:nth-child(2) {
         width: 60px;
         height: 60px;
     }
+
     .card div {
         width: 200px;
         height: 300px;
-        
+
     }
-    .card div span{
+
+    .card div span {
         font-size: 15px;
     }
-    section#projects h1{
+
+    section#projects h1 {
         font-size: 28px;
     }
-    .project-1 h4{
+
+    .project-1 h4 {
         padding-top: 5px;
         font-size: 13px;
         max-width: 100%;
     }
-    .project-1 h4 >span{
+
+    .project-1 h4>span {
         right: 3px;
         margin-left: 3px;
     }
-    .project-1 p{
-    
+
+    .project-1 p {
+
         font-size: 11px;
     }
-    .project-1 p:nth-child(5){
+
+    .project-1 p:nth-child(5) {
         top: 4px;
         font-size: 9px;
     }
-    .project-2 h4 >span{
+
+    .project-2 h4>span {
         margin-left: 3px;
         right: 0px;
         left: 3px;
     }
-    .project-2 h4{
+
+    .project-2 h4 {
         padding-top: 6px;
         font-size: 13px;
         max-width: 100%;
     }
 
-    .project-2 p{
-    
+    .project-2 p {
+
         font-size: 11px;
     }
 
-    .project-2 p:nth-child(5){
+    .project-2 p:nth-child(5) {
         top: 4px;
         font-size: 9px;
     }
+
     /**/
-    .project-3 h4 >span{
+    .project-3 h4>span {
         margin-left: 3px;
         right: 0px;
         left: 3px;
     }
-    .project-3 h4{
+
+    .project-3 h4 {
         padding: 5px;
         font-size: 13px;
         max-width: 100%;
     }
 
-    .project-3 p{
-    
+    .project-3 p {
+
         font-size: 11px;
     }
 
-    .project-3 p:nth-child(5){
+    .project-3 p:nth-child(5) {
         top: 4px;
         font-size: 9px;
     }
-    .project-3 img{
+
+    .project-3 img {
         height: 117px;
     }
 
-    #projects button{
+    #projects button {
         padding: 12px;
         width: 400px;
         font-size: 12px;
     }
 
     footer {
-        
+
         text-align: center;
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
         font-size: 9px;
     }
-    footer div i:nth-child(2){
+
+    footer div i:nth-child(2) {
         font-size: 11px;
     }
 }
 
-@media (max-width:1920px){
+@media (max-width:1920px) {
     body {
         max-width: 1920px;
     }
