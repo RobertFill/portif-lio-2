@@ -847,7 +847,7 @@ p {
 .project-5 h4>span {
     color: var(--theme-orange-color);
     position: relative;
-    right: 21px;
+    right: 46px;
 }
 
 .project-5 h4>span:nth-child(2) {
@@ -1593,6 +1593,48 @@ footer div:nth-child(2) {
     .project-3 img {
         height: 117px;
     }
+    .project-4 h4 {
+        padding-top: 5px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+    .project-4 h4>span {
+        color: var(--theme-orange-color);
+        position: relative;
+        right: 8px;
+    }
+
+    .project-4 p {
+
+        font-size: 11px;
+    }
+
+    .project-4 p:nth-child(5) {
+        top: 4px;
+        font-size: 9px;
+    }
+
+    .project-5 h4>span {
+        color: var(--theme-orange-color);
+        position: relative;
+        right: 8px;
+    }
+
+    .project-5 h4 {
+        padding-top: 5px;
+        font-size: 13px;
+        max-width: 100%;
+    }
+    .project-5 p {
+
+        font-size: 12px;
+    }
+
+    .project-5 p:nth-child(5) {
+        top: 4px;
+        font-size: 9px;
+    }
+
 
     #projects button {
         padding: 12px;
@@ -1607,6 +1649,7 @@ footer div:nth-child(2) {
         align-items: center;
         flex-direction: column-reverse;
         font-size: 9px;
+        gap: 10px;
     }
 
     footer div i:nth-child(2) {
